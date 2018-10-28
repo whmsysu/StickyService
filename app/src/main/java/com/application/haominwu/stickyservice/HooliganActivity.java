@@ -24,7 +24,6 @@ public class HooliganActivity extends Activity {
         params.height = 1;
         params.width = 1;
         window.setAttributes(params);
-        Logger.d("onCreate");
 
         //Add service
         Intent serviceIntent = new Intent(this, MyService.class);
